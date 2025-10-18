@@ -768,6 +768,10 @@ ul {
 /* Mobile pequeno (480px) */
 @media (max-width: 480px) {
 
+  .section h2 {
+    font-size: 2.2rem;
+  }
+
   /* ====== ESPECIALIDADES ====== */
   .container-especialidade h2 {
     font-size: 2.2rem;
@@ -896,8 +900,16 @@ ul {
   gap: 1rem;
 }
 
+.tall {
+  height: 340px;
+}
+
+.medium {
+  height: 220px;
+}
+
 .short {
-  height: 280px;
+  height: 220px;
 }
 }
 
@@ -938,4 +950,5 @@ ul {
 .modal-close:hover {
   color: #ccc;
 }
+
 
