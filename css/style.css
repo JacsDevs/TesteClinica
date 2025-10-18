@@ -882,9 +882,6 @@ ul {
     gap: 1rem;
   }
 
-
-
-
   .column-left {
   display: flex;
   width: 50%;
@@ -900,7 +897,7 @@ ul {
 }
 
 .short {
-  height: 300px;
+  height: 280px;
 }
 }
 
@@ -941,3 +938,4 @@ ul {
 .modal-close:hover {
   color: #ccc;
 }
+
