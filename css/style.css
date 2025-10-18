@@ -130,7 +130,7 @@ ul {
 
 .menu-toggle span {
   width: 26px;
-  height: 3px;
+  height: 2px;
   background: #fff;
   margin: 4px 0;
   border-radius: 3px;
@@ -139,7 +139,7 @@ ul {
 
 /* ====== EFEITO X ====== */
 .menu-toggle.active span:nth-child(1) {
-  transform: rotate(45deg) translateY(7px) translateX(8.5px);
+  transform: rotate(45deg) translateY(6px) translateX(8.5px);
 }
 
 .menu-toggle.active span:nth-child(2) {
@@ -147,7 +147,7 @@ ul {
 }
 
 .menu-toggle.active span:nth-child(3) {
-  transform: rotate(-45deg) translateY(-7px) translateX(8.5px);
+  transform: rotate(-45deg) translateY(-6px) translateX(8.5px);
 }
 
 /* ====== SLIDER ====== */
@@ -995,3 +995,4 @@ ul {
 .modal-close:hover {
   color: #ccc;
 }
+
