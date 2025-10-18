@@ -793,6 +793,10 @@ ul {
     font-size: 1.4rem;
   }
 
+  .card h3 {
+    font-size: 1.5rem;
+  }
+
   p {
     font-size: 0.95rem;
   }
@@ -983,4 +987,5 @@ ul {
 .modal-close:hover {
   color: #ccc;
 }
+
 
