@@ -789,12 +789,16 @@ ul {
     font-size: 1.4rem;
   }
 
+  .titulo-content .btn {
+    padding: 1rem 1.2rem;
+  }
+
   h3 {
     font-size: 1.4rem;
   }
 
   .card h3 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   p {
@@ -803,6 +807,10 @@ ul {
 
   ul {
     font-size: 0.95rem;
+  }
+
+  .section {
+    padding: 5rem 1rem;
   }
 
   .section h2 {
@@ -987,5 +995,3 @@ ul {
 .modal-close:hover {
   color: #ccc;
 }
-
-
