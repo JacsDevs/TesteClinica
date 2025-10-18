@@ -39,7 +39,7 @@ h1 {
 h2 {
     font-family: Made-Bon-Voyage;
     font-weight: normal;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 h3 {
@@ -219,7 +219,6 @@ ul {
 .section h2 {
   text-align: center;
   margin-bottom: 2rem;
-  font-size: 50px;
 }
 
 .spacing {
@@ -616,6 +615,7 @@ ul {
 
 /* Tablet grande (992px) */
 @media (max-width: 992px) {
+
   .titulo-content h1 {
     font-size: 3rem;
   }
@@ -626,6 +626,14 @@ ul {
 
   .section h2 {
     font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  ul {
+    font-size: 1rem;
   }
   
   /* ====== MENU MOBILE ====== */
@@ -676,14 +684,6 @@ ul {
     font-size: 2.5rem;
   }
 
-  .container-especialidade p {
-    font-size: 1rem;
-  }
-
-  .container-especialidade ul {
-    font-size: 0.95rem;
-  }
-
   .card-content h3 {
     font-size: 1.3rem;
   }
@@ -724,6 +724,14 @@ ul {
 /* Tablet médio (768px) */
 @media (max-width: 768px) {
 
+  p {
+    font-size: 1rem;
+  }
+
+  ul {
+    font-size: 1rem;
+  }
+
   /* ====== HEADER ====== */
   .header {
     padding: 0 2rem;
@@ -751,12 +759,6 @@ ul {
     text-align: center;
   }
 
-  .container-especialidade p,
-  .container-especialidade ul {
-    text-align: justify;
-    font-size: 0.95rem;
-  }
-
   .card-especialidade img {
     height: 300px;
   }
@@ -778,6 +780,10 @@ ul {
 
 /* Mobile pequeno (480px) */
 @media (max-width: 480px) {
+
+  p {
+    font-size: 0.95rem;
+  }
 
   .section h2 {
     font-size: 2.2rem;
@@ -961,6 +967,3 @@ ul {
 .modal-close:hover {
   color: #ccc;
 }
-
-
-
