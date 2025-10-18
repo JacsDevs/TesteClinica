@@ -616,6 +616,17 @@ ul {
 
 /* Tablet grande (992px) */
 @media (max-width: 992px) {
+  .titulo-content h1 {
+    font-size: 3rem;
+  }
+
+  .titulo-content h2 {
+    font-size: 2rem;
+  }
+
+  .section h2 {
+    font-size: 2.5rem;
+  }
   
   /* ====== MENU MOBILE ====== */
   .nav {
@@ -950,5 +961,6 @@ ul {
 .modal-close:hover {
   color: #ccc;
 }
+
 
 
