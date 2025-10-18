@@ -152,7 +152,7 @@ ul {
 
 /* ====== SLIDER ====== */
 .slider {
-  height: 595px;
+  height: 590px;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -637,7 +637,7 @@ ul {
   }
 
   .slider {
-    height: 387px;
+    height: 385px;
   }
   
   /* ====== MENU MOBILE ====== */
@@ -747,7 +747,7 @@ ul {
   }
 
   .slider {
-    height: 223px;
+    height: 225px;
   }
 
   /* ====== ESPECIALIDADES ====== */
@@ -805,6 +805,7 @@ ul {
 
   .titulo-content h1 {
     font-size: 2.2rem;
+    margin-bottom: 0;
   }
 
   .titulo-content h2 {
