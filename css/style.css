@@ -781,19 +781,31 @@ ul {
 /* Mobile pequeno (480px) */
 @media (max-width: 480px) {
 
+  .titulo-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .titulo-content h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
   p {
     font-size: 0.95rem;
   }
 
+  ul {
+    font-size: 0.95rem;
+  }
+
   .section h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   /* ====== ESPECIALIDADES ====== */
-  .container-especialidade h2 {
-    font-size: 2.2rem;
-  }
-
   .card-especialidade img {
     height: 220px;
   }
@@ -879,6 +891,10 @@ ul {
     width: 100% !important;
     margin: 1rem 0;
     text-align: center;
+  }
+
+  .footer-bottom p {
+    font-size: 0.8rem;
   }
 
 
