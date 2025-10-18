@@ -152,7 +152,7 @@ ul {
 
 /* ====== SLIDER ====== */
 .slider {
-  height: 60vh;
+  height: 595px;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -635,6 +635,10 @@ ul {
   ul {
     font-size: 1rem;
   }
+
+  .slider {
+    height: 387px;
+  }
   
   /* ====== MENU MOBILE ====== */
   .nav {
@@ -724,6 +728,11 @@ ul {
 /* Tablet médio (768px) */
 @media (max-width: 768px) {
 
+  .header .container .logo {
+    display: flex;
+    align-items: center;
+  }
+
   p {
     font-size: 1rem;
   }
@@ -735,6 +744,10 @@ ul {
   /* ====== HEADER ====== */
   .header {
     padding: 0 2rem;
+  }
+
+  .slider {
+    height: 223px;
   }
 
   /* ====== ESPECIALIDADES ====== */
@@ -780,6 +793,15 @@ ul {
 
 /* Mobile pequeno (480px) */
 @media (max-width: 480px) {
+
+  .header .container .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    height: 50px;
+  }
 
   .titulo-content h1 {
     font-size: 2.2rem;
@@ -995,4 +1017,3 @@ ul {
 .modal-close:hover {
   color: #ccc;
 }
-
